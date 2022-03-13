@@ -275,6 +275,7 @@ class GraphicDebuggerController:
             self.panel.configure(image=imgtk)
             self.panel.image = imgtk
 
+
     def run_debugger_processor(self):
         search_templates = ["A5_TOWN_0", "A5_TOWN_1", "A5_TOWN_2", "A5_TOWN_3"]
         while 1:
